@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+    <h2>Répertoire des contacts</h2>
+    </header>
+
+
+    <div class="container">
+
+        <div class="contact">
+            <div class="formcontact">
+                 <h3>Formulaire de contact</h3>
+            </div>
+
+            <form  id="form1">
+
+                
+                <div class="mes_label">
+                    <label for="name">Pénom</label>
+                </div>
+                <div class="mes_input">
+                    <input type="text" id="prenom"  name="user_prenom" >
+                </div>
+
+                <div class="mes_label">
+                    <label for="name">Nom</label>
+                </div>
+                <div class="mes_input">
+                    <input type="text" id="nom"  name="user_nom">
+                </div>
+
+                <div class="mes_label">
+                    <label for="name">Télephone</label>
+                 </div>
+                <div class="mes_input">
+                    <input type="tel" id="numero"/>
+                </div>
+
+                <div class="mes_label">
+                    <label for="groupe">Groupe</label>
+                </div>
+                <div class="mes_input">
+                    <input type="text" id="group">
+                </div>
+
+                <div class="mes_label">
+                    <label for="name">Email</label>
+                </div>
+                <div class="mes_input">
+                    <input type="email" id="mail" />
+                </div>
+
+                <div class="mes_label">
+                    <label class="bio" for="bio">Bio</label>
+                </div>
+                <div class="mes_input">
+                    <textarea class="textarea" id="bio" name="bio"></textarea>
+                </div>
+                    <div class="space-to-drop" id="dropArea">
+                       <p class="pargraph">Déposer la photo ici</p>
+                    </div>
+                <div class="button-groupe">
+                   <input class="cree" type="submit" id="creer" value="Creer">
+                    <input class="cree1" type="button" id="creer1" value="Modifier">
+                   <input class="supprimer" type="reset" id="reset" value="Réinit">
+            
+                </div> 
+            </form>
+        </div>
+
+        <div class="liste-contact" id="liste">
+
+            <div class="header">
+                <h3>Liste des contacts</h3>
+            </div>
+
+            <div class="divlist">
+               <!-- <div class="divimage">
+                    <img src="contact.png">
+              </div>
+
+                <div class="contenus">
+
+                    <div class="Nomicon">
+
+                        <p>prenom</p>
+                        <p>nom</span>
+                        <p>-groupe</p>
+
+                        <div class="iconGroup">
+                            <i class="fa-solid fa-user-pen"></i>
+                            <i class=" class="fa-solid fa-trash-can"</i>
+                        </div>
+
+                    </div>
+
+                    <div class="teldiv">Telephone</div>
+                    <div class="divMl">mail</div>
+                    <div>bio</div>
+                </div>  -->
+            </div>
+        </div>
+    </div>
+    
+    
+        
+
+    <script src="app.js"></script>
+</body>
+</html>
